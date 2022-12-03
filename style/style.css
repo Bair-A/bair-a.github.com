@@ -355,6 +355,9 @@ body {
 }
 
 /*active burger background*/
+body {
+  transition: all 0.3s ease;
+}
 body.active {
   overflow: hidden;
 }
@@ -368,6 +371,7 @@ body.active:before {
   right: 0;
   z-index: 1;
   background-color: #808080;
+  transition: all 0.3s ease;
 }
 
 /*header*/
