@@ -308,6 +308,10 @@ template {
 }
 
 /*general styles*/
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::after,
 *::before {

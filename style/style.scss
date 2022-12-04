@@ -2,6 +2,9 @@
 @import "normalize.scss";
 
                           /*general styles*/
+html {
+  scroll-behavior: smooth;
+}
 *,
 *::after,
 *::before {
