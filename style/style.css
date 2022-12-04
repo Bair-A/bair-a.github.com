@@ -380,26 +380,20 @@ body.active:before {
 
 /*header*/
 .header {
-  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
 }
-
-/*main*/
-.main {
-  padding: 60px 0;
-}
-
-.main__inner {
+.header .nav__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin: 20px 0 0;
 }
-
-.main__title {
-  font-size: 47px;
-  margin: 0 0 23px;
-}
-
-.main__subtitle {
-  margin: 0 0 37px;
+.header .nav-list {
+  display: none;
 }
 
 /*burger*/
@@ -469,6 +463,25 @@ body.active:before {
   transform: rotate(45deg) translate(0, -50%);
 }
 
+/*main*/
+.main {
+  padding: 60px 0;
+}
+
+.main__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__title {
+  font-size: 47px;
+  margin: 0 0 23px;
+}
+
+.main__subtitle {
+  margin: 0 0 37px;
+}
+
 .burger__menu {
   position: fixed;
   top: 0;
@@ -498,14 +511,10 @@ body.active .burger__menu {
 }
 
 .main__image {
-  position: relative;
   overflow: hidden;
   height: 478px;
 }
 .main__image img {
-  position: absolute;
-  top: 0;
-  left: 0;
   object-fit: cover;
   -o-object-position: 50% 20%;
   object-position: 50% 20%;
