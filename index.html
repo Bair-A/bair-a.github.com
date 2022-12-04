@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header" id="home">
+    <header class="header">
         <nav class="nav">
             <div class="container">
                 <div class="nav__inner">
@@ -26,11 +26,20 @@
                     <div class="burger">
                         <span></span>
                     </div>
+                    <div class="burger__menu">
+                        <ul class="burger__menu-list">
+                            <li class="burger__menu-item"><a href="#home" class="burger__menu-link">Home</a></li>
+                            <li class="burger__menu-item"><a href="#about-me" class="burger__menu-link">About me</a></li>
+                            <li class="burger__menu-item"><a href="#skills" class="burger__menu-link">Skills</a></li>
+                            <li class="burger__menu-item"><a href="#portfolio" class="burger__menu-link">Portfolio</a></li>
+                            <li class="burger__menu-item"><a href="#contacts" class="burger__menu-link">Contacts</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="main">
+    <section class="main" id="home">
         <div class="container">
             <div class="main__inner">
                 <div class="main__title-container">
@@ -38,15 +47,6 @@
                     <h3 class="main__subtitle">Junior frontend developer<br>30 years old, Elista</h3>
                 </div>
 
-                <div class="burger__menu">
-                    <ul class="burger__menu-list">
-                        <li class="burger__menu-item"><a href="#home" class="burger__menu-link">Home</a></li>
-                        <li class="burger__menu-item"><a href="#about-me" class="burger__menu-link">About me</a></li>
-                        <li class="burger__menu-item"><a href="#skills" class="burger__menu-link">Skills</a></li>
-                        <li class="burger__menu-item"><a href="#portfolio" class="burger__menu-link">Portfolio</a></li>
-                        <li class="burger__menu-item"><a href="#contacts" class="burger__menu-link">Contacts</a></li>
-                    </ul>
-                </div>
             </div>
             <div class="main__image">
                 <img src="./src/img/main_photo.jpg" alt="photo">
