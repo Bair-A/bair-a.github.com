@@ -320,6 +320,15 @@ body.active .burger__menu {
 .portfolio {
   padding: 80px 0;
   background-color: #F6F6F6;
+
+  .about-project__text-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .card-title {
+    margin: 20px auto;
+  }
 }
 @media (min-width: 768px) {
   .portfolio {
